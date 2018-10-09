@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Práctica 02 HTML5 + CSS3</title>
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png" alt="Banner">
-		<img src="img/granthams.png" alt="Granthams">
-		<img src="img/paint.png" alt="Paint">
+		<img src="img/granthams.png" id="granthams" alt="Granthams">
+		<img src="img/paint.png" id="paint" alt="Paint">
 		<input type="search" placeholder="Search">
 		<nav>
 			<ul>
@@ -20,12 +21,14 @@
 			</ul>
 		</nav>
 	</header>
-	<section>
+	<section id="primerseccion">
 		<article>
 			<img src="img/slide.jpg" alt="Slide">
 		</article>
 		<article>
-			<span>We can offer...</span>
+			<span class="colorrosa letragrande nito">
+				We can offer...
+			</span>
 			<ul>
 				<li>Highly Competitive Prices</li>
 				<li>Variable Data</li>
@@ -39,29 +42,29 @@
 		</article>
 		<img src="img/bg_offer.png" alt="Offer">
 	</section>
-	<section>
+	<section id="segundaseccion">
 		<article>
-			<span>
+			<span class="colorrosa letramediana nito">
 				01772 250207
 			</span>
 		</article>
 	</section>
-	<section>
+	<section id="terceraseccion">
 		<article>
 			<img src="img/cerdito.png" alt="Cerdito">
-			<span>
+			<span class="colorrosa letracomun nito">
 				Save this Spring
 			</span>
 			<br>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis odit voluptas quisquam voluptates dolore sunt veritatis, tempore incidunt doloremque repellendus tempora qui rerum neque excepturi ducimus, sit ut pariatur velit.
 			<p></p>
-			<span>
+			<span class="colorrosa nito">
 				Find out more...
 			</span>
 		</article>
 		<article>
 			<img src="img/hoja.png" alt="Hoja">
-			<span>
+			<span class="colorverde letracomun nito">
 				ECO Friendly
 			</span>
 			<br>
@@ -69,18 +72,20 @@
 		</article>
 		<article>
 			<img src="img/new.png" alt="New">
-			<span>
+			<span class="colorazul letracomun nito">
 				Upload your File
 			</span>
 			<br>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis odit voluptas quisquam voluptates dolore sunt veritatis, tempore incidunt doloremque repellendus tempora qui rerum neque excepturi ducimus, sit ut pariatur velit.
 			<p></p>
-			<span>
+			<span class="colorazul">
 				Upload your File Now...
 			</span>
 		</article>
 		<article>
-			<span>Stay in touch</span>
+			<span class="colorrosa letramediana">
+				Stay in touch
+			</span>
 			<br>
 			join our mailing list today <br>
 			<input type="email" placeholder="Email goes here">
