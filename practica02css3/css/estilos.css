@@ -1,5 +1,5 @@
 body{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	font-size: 16px; /*1em*/
 	margin: 0px auto;
 	/*Requerimiento del cliente*/
@@ -38,7 +38,8 @@ header nav ul li{
 	float: right;
 }
 #primerseccion{
-	/*border: 1px solid orange;*/
+	/*border: 1px solid red;*/
+	height: 318px;
 	margin-top: 60px;
 }
 #primerseccion article{
@@ -62,11 +63,44 @@ header nav ul li{
 	color: #FF0099;
 	content: "• ";
 }
+#secc03art04{
+	padding-top: 50px;
+}
+#segundaseccion article{
+	padding-right: 122px;
+	text-align: right;
+}
+#terceraseccion article{
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraseccion article input[type="email"]{
+	border-radius: 5px;
+}
+#terceraseccion article input[type="button"]{
+	background: #8BC500;
+	border-radius: 5px;
+	color: white;
+}
+#terceraseccion article img{
+	vertical-align: middle;
+}
+.colorazul{
+	color: #4267B3;
+}
 .colorrosa{
 	color: #FF0099;
 }
+.colorverde{
+	color: #8BC500;
+}
 .letragrande{
 	font-size: 3.5em; /* 16 x 3.5 */ 
+}
+.letramediana{
+	font-size: 2em;
 }
 .nito{
 	font-weight: bold; /*negrita*/
