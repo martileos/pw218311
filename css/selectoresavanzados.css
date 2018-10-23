@@ -1,0 +1,85 @@
+/*Imagen con atributo ALT*/
+img[alt]{
+	border: 5px solid blue;
+}
+/*Imagen con una cadena SRC exacta*/
+img[src="img/LOGO_TEC_PNG_OK.png"]{
+	width: 400px;
+}
+ /*^ = circunflejo
+ Imagen con atributo SRC al inicio
+ de la cadena*/
+img[src^="img/"]{
+	width: 150px;
+}
+ /*$ = signo de pesos
+ Imagen con atributo SRC al final
+ de la cadena*/
+img[src$="png"]{
+	width: 250px;
+}
+ /* * = asterisco
+ Imagen con atributo SRC en cualquier parte
+ de la cadena*/
+img[src*="mg/"]{
+	width: 1000px;
+}
+
+/*El carater ~(tilde) indica que estas clases
+están separadas por espacios
+Su equivalente es:
+	.resaltado
+	.archivo
+	.ingles
+*/
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+article[class~="archivo"]{
+	border: 1px dashed red;
+}
+article[class~="ingles"]{
+	border: 1px dashed green;
+}
+/*El caracter |(pipe) distingue las clases
+unidas con guiones*/
+article[class|="ingles"]{
+	text-align: center;
+}
+
+/*Selector de secundarios.
+Seleccionar solamente las <p>
+que se encuentran inmeadiatamente después
+del <div>*/
+div > p{ /*solo hijos directos*/
+	color: blue;
+}
+/*Todos los elementos <p> dentro
+del <div>*/
+div p{
+	color: red;
+}
+/*Selecciona solo el elemento
+<p> que está inmediatamente
+después del elemento <h2>*/
+h2 + p{
+	color: green;
+}
+/*Todos los elementos <p> después
+del elemento <h2>*/
+h2 ~ p{
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
