@@ -71,6 +71,38 @@ h2 ~ p{
 	color: gray;
 }
 
+/*Poner en color rojo todos los section menos #referencias*/
+#resumen,#experimento,#pruebas,#resultados,#conclusiones{
+	color: red;
+}
+/*Poner en color cyan todos los section menos #referencias*/
+section:not(#referencias){
+	color: cyan;
+}
+
+li:nth-child(odd){ /*impar*/
+	color: green;
+}
+li:nth-child(even){ /*par*/
+	color: blue;
+}
+li:nth-child(5){ /*quinto elemento*/
+	color: red;
+}
+/*Elementos de abajo hacia arriba*/
+li:nth-last-child(1){
+	color: purple;
+}
+
+p:first-line{
+	color: blue;
+	font-weight: bold;	
+}
+
+
+
+
+
 
 
 
