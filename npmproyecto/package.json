@@ -1,0 +1,25 @@
+{
+  "name": "proyectoprueba",
+  "version": "0.0.0",
+  "description": "Aprender el uso de npm en los proyectos Web",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "proyecto",
+    "prueba",
+    "aprender",
+    "web",
+    "rc"
+  ],
+  "author": "MC Martin Nevarez",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.8",
+    "electron-packager": "^12.2.0",
+    "electron-require": "^0.3.0"
+  }
+}
