@@ -9,34 +9,31 @@
 	<table>
 		<tr>
 			<td colspan="4">
-				<input 
-					onfocus="colorAmarillo(this);" 
-					onfocusout="colorBlanco(this);"
+				<input 		
 					type="text" 
 					id="operando1" 
 					value="0"
+					disabled 
 				>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="4">
 				<input 
-				onfocus="colorAmarillo(this);" 
-				onfocusout="colorBlanco(this);"
 				type="text" 
 				id="operando2"
 				 value="0"
+				 disabled 
 				 >
 			</td>
 		</tr>
 		<tr>
 			<td colspan="4">
 				<input 
-				onfocus="colorAmarillo(this);" 
-				onfocusout="colorBlanco(this);"
 				type="text" 
 				id="resultado" 
-				value="0">
+				value="0"
+				disabled >
 
 			</td>
 		</tr>
@@ -64,6 +61,13 @@
 			</td>
 			<td><button value="0" id="cero">0</button></td>
 			<td><button value="/" id="division">/</button></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<button id="reiniciar">
+					Reiniciar
+				</button>
+			</td>
 		</tr>
 	</table>
 	<script src="js/calculadora.js"></script>	
